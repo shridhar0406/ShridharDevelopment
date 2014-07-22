@@ -6,7 +6,6 @@ public class FileUploadController {
         document.AuthorId = UserInfo.getUserId();
         document.FolderId = UserInfo.getUserId(); // put it in running user's folder
         system.debug(UserInfo.getName());
-        system.debug(UserInfo.getName());
         
         try {
             system.debug('hi');
