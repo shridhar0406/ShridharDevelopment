@@ -1,0 +1,8 @@
+<apex:page sidebar="false" controller="testController">
+  <apex:form >
+  <h1>Welcome</h1>  
+  <apex:pageblock >
+      <apex:commandButton value="Refresh" id="theButton" action="{!refresh}"/>      
+  </apex:pageblock>  
+  </apex:form>
+</apex:page>
